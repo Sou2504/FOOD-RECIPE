@@ -1,1 +1,21 @@
-
+body{
+  font-family: 'Open Sans', sans-serif !important;
+}
+.text-slanted{
+  font-family: "Courgette", cursive;
+}
+.text-orange{
+  color: #f15025;
+}
+.letter-spacing{
+  letter-spacing: 0.5rem;
+}
+.header-hero, .default-hero {
+  min-height: calc(100vh - 96px);
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+              url('./images/pexels-marko-klaric-6408290.jpg') center/cover no-repeat;
+}
+.default-hero{
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+              url('./images/pexels-jessica-lewis-creative-699380.jpg') center/cover no-repeat;
+}
